@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+ 
+    <!-- Load the parameters for the algorithm -->
+    <rosparam command="load" file="$(find ur5_training)/config/qlearn_params.yaml" />
+ 
+    <!-- Launch the training system -->
+    <node pkg="ur5_training" name="test_model" type="test_model.py" output="screen"/>
+
+</launch>

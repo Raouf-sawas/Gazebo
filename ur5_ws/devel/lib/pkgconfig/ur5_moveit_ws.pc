@@ -1,0 +1,8 @@
+prefix=/home/ros/thesis/ur5_ws/devel
+
+Name: ur5_moveit_ws
+Description: Description of ur5_moveit_ws
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/ros/thesis/ur5_ws/devel/lib 
+Requires: 
