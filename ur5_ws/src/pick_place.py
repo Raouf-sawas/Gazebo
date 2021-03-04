@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python33
 
 import sys
 import rospy
@@ -62,128 +62,57 @@ pose_targe.orientation.x = 0.5
 pose_targe.orientation.y = -0.5
 pose_targe.orientation.z = 0.5
 #pose_targe.position.x = 0.4
-pose_targe.position.x = -0.65111
-pose_targe.position.y = 0.3
+pose_targe.position.x = 0.42111
+pose_targe.position.y = 0.0
 pose_targe.position.z = 0.515018
 arm_group.set_pose_target(pose_targe)
 plan1 =arm_group.go()
 
-
+print("first")
 gripper_client(0.0)
 
 
-
-pose_targe.orientation.w = -0.5
-pose_targe.orientation.x = 0.5
-pose_targe.orientation.y = -0.5
-pose_targe.orientation.z = 0.5
-pose_targe.position.x = -0.6318
-pose_targe.position.y = 0.3
-pose_targe.position.z = 0.48
+pose_targe.position.x = 0.4218
+pose_targe.position.y = 0.0
+pose_targe.position.z = 0.5
 arm_group.set_pose_target(pose_targe)
 plan1 =arm_group.go()
 
 
 
-
-
-pose_targe = geometry_msgs.msg.Pose()
-pose_targe.orientation.w = -0.5
-pose_targe.orientation.x = 0.5
-pose_targe.orientation.y = -0.5
-pose_targe.orientation.z = 0.5
-pose_targe.position.x = -0.63
-pose_targe.position.y = 0.3
-pose_targe.position.z = 0.433
+print("sec")
+pose_targe.position.x = 0.4218
+pose_targe.position.y = 0.0
+pose_targe.position.z = 0.523
 arm_group.set_pose_target(pose_targe)
 plan1 =arm_group.go()
 
-
-
-gripper_client(0.46)
 #pick done
 #arm_group.set_max_acceleration_scaling_factor(0.001)
 
-rospy.sleep(10)
+rospy.sleep(1)
 
 
-pose_targe = geometry_msgs.msg.Pose()
-pose_targe.orientation.w = -0.5
-pose_targe.orientation.x = 0.5
-pose_targe.orientation.y = -0.5
-pose_targe.orientation.z = 0.5
-#pose_targe.position.x = 0.4
-pose_targe.position.x = 0.7
-pose_targe.position.y =  0.247
-pose_targe.position.z = 0.433
+pose_targe.position.x = 0.43
+pose_targe.position.y = 0.0
+pose_targe.position.z = 0.522
 arm_group.set_pose_target(pose_targe)
 plan1 =arm_group.go()
-
+print("thirfd")
 arm_group.set_max_acceleration_scaling_factor(0.2)
-rospy.sleep(5)
-
-pose_targe = geometry_msgs.msg.Pose()
-pose_targe.orientation.w = -0.5
-pose_targe.orientation.x = 0.5
-pose_targe.orientation.y = -0.5
-pose_targe.orientation.z = 0.5
-#pose_targe.position.x = 0.4
-pose_targe.position.x = 0.4
-pose_targe.position.y = 0.247
-pose_targe.position.z = 0.54372018
-arm_group.set_pose_target(pose_targe)
-plan1 =arm_group.go()
-
-
 rospy.sleep(2)
-
-
-
-
-pose_targe = geometry_msgs.msg.Pose()
-pose_targe.orientation.w = -0.5
-pose_targe.orientation.x = 0.5
-pose_targe.orientation.y = -0.5
-pose_targe.orientation.z = 0.5
-#pose_targe.position.x = 0.4
-pose_targe.position.x = 0.611
-pose_targe.position.y = 0.32
-pose_targe.position.z = 0.54372018
+pose_targe.position.x = 0.43
+pose_targe.position.y = 0.0
+pose_targe.position.z = 0.522
 arm_group.set_pose_target(pose_targe)
 plan1 =arm_group.go()
-arm_group.set_max_acceleration_scaling_factor(0.1)
 
-rospy.sleep(5)
-
-
-pose_targe = geometry_msgs.msg.Pose()
-pose_targe.orientation.w = -0.5
-pose_targe.orientation.x = 0.5
-pose_targe.orientation.y = -0.5
-pose_targe.orientation.z = 0.5
-#pose_targe.position.x = 0.4
-pose_targe.position.x = 0.6611
-pose_targe.position.y = 0.32
-pose_targe.position.z = 0.54372018
+pose_targe.position.x = 0.46
+pose_targe.position.y = 0.0
+pose_targe.position.z = 0.522
 arm_group.set_pose_target(pose_targe)
 plan1 =arm_group.go()
 
 
-rospy.sleep(2)
-
-
-rospy.sleep(3)
-pose_targe = geometry_msgs.msg.Pose()
-pose_targe.orientation.w = -0.5
-pose_targe.orientation.x = 0.5
-pose_targe.orientation.y = -0.5
-pose_targe.orientation.z = 0.5
-#pose_targe.position.x = 0.4
-pose_targe.position.x = 0.7111
-pose_targe.position.y = 0.32
-pose_targe.position.z = 0.54372018
-arm_group.set_pose_target(pose_targe)
-plan1 =arm_group.go()
-
-
+print("fourth")
 moveit_commander.roscpp_shutdown()

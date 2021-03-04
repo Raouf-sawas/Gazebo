@@ -186,6 +186,7 @@ robotiq/robotiq_gazebo/CMakeFiles/gazebo_disable_link_plugin.dir/src/disable_lin
 robotiq/robotiq_gazebo/CMakeFiles/gazebo_disable_link_plugin.dir/src/disable_link_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/packet.pb.h
 robotiq/robotiq_gazebo/CMakeFiles/gazebo_disable_link_plugin.dir/src/disable_link_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/param.pb.h
 robotiq/robotiq_gazebo/CMakeFiles/gazebo_disable_link_plugin.dir/src/disable_link_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/param_v.pb.h
+robotiq/robotiq_gazebo/CMakeFiles/gazebo_disable_link_plugin.dir/src/disable_link_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/performance_metrics.pb.h
 robotiq/robotiq_gazebo/CMakeFiles/gazebo_disable_link_plugin.dir/src/disable_link_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/physics.pb.h
 robotiq/robotiq_gazebo/CMakeFiles/gazebo_disable_link_plugin.dir/src/disable_link_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/pid.pb.h
 robotiq/robotiq_gazebo/CMakeFiles/gazebo_disable_link_plugin.dir/src/disable_link_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/planegeom.pb.h

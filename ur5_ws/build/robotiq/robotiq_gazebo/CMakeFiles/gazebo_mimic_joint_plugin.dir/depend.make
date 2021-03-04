@@ -208,6 +208,7 @@ robotiq/robotiq_gazebo/CMakeFiles/gazebo_mimic_joint_plugin.dir/src/mimic_joint_
 robotiq/robotiq_gazebo/CMakeFiles/gazebo_mimic_joint_plugin.dir/src/mimic_joint_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/packet.pb.h
 robotiq/robotiq_gazebo/CMakeFiles/gazebo_mimic_joint_plugin.dir/src/mimic_joint_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/param.pb.h
 robotiq/robotiq_gazebo/CMakeFiles/gazebo_mimic_joint_plugin.dir/src/mimic_joint_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/param_v.pb.h
+robotiq/robotiq_gazebo/CMakeFiles/gazebo_mimic_joint_plugin.dir/src/mimic_joint_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/performance_metrics.pb.h
 robotiq/robotiq_gazebo/CMakeFiles/gazebo_mimic_joint_plugin.dir/src/mimic_joint_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/physics.pb.h
 robotiq/robotiq_gazebo/CMakeFiles/gazebo_mimic_joint_plugin.dir/src/mimic_joint_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/pid.pb.h
 robotiq/robotiq_gazebo/CMakeFiles/gazebo_mimic_joint_plugin.dir/src/mimic_joint_plugin.cpp.o: /usr/include/gazebo-9/gazebo/msgs/planegeom.pb.h

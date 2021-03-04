@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python33
 import sys
 import rospy
 import moveit_commander
@@ -15,7 +15,7 @@ import actionlib
 import math
 import control_msgs.msg
 
-#!/usr/bin/envpython
+#!/usr/bin/env python33
 
 import rospy
 

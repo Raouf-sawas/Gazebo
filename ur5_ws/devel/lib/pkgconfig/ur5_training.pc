@@ -4,5 +4,5 @@ Name: ur5_training
 Description: Description of ur5_training
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/ros/thesis/ur5_ws/devel/lib 
+Libs: -L${prefix}/lib 
 Requires: 

@@ -1,8 +1,0 @@
-prefix=/home/ros/thesis/ur5_ws/devel
-
-Name: ur5_gazebo
-Description: Description of ur5_gazebo
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/ros/thesis/ur5_ws/devel/lib 
-Requires: 

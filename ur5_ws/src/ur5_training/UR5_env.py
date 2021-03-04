@@ -65,11 +65,6 @@ entry_point='UR5_env:UR5Env',)
 
 
 class UR5Env(gym.Env):
-    l_fx, l_fy, l_fz = collections.deque(maxlen=3),collections.deque(maxlen=3),collections.deque(maxlen=3)
-    l_tx, l_ty, l_tz = collections.deque(maxlen=3),collections.deque(maxlen=3),collections.deque(maxlen=3)
-    f_x, f_z, t_x, t_y, t_z, f_x_avg, f_y_avg, f_z_avg ,t_x_avg ,t_y_avg, t_z_avg = 0,0,0,0,0,0,0,0,0,0,0
-    f_y=16
-    p_x,lp_x, lp_y, p_y,lp_z, p_z = 0.5, 0.5, 0.1, 0.1, 0.435, 0.435
     def __init__(self):
         moveit_commander.roscpp_initialize(sys.argv)
         rospy.init_node('moveit_group_python_interface',anonymous=True)

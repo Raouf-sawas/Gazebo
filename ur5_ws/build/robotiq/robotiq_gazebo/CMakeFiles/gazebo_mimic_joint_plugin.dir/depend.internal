@@ -209,6 +209,7 @@ robotiq/robotiq_gazebo/CMakeFiles/gazebo_mimic_joint_plugin.dir/src/mimic_joint_
  /usr/include/gazebo-9/gazebo/msgs/packet.pb.h
  /usr/include/gazebo-9/gazebo/msgs/param.pb.h
  /usr/include/gazebo-9/gazebo/msgs/param_v.pb.h
+ /usr/include/gazebo-9/gazebo/msgs/performance_metrics.pb.h
  /usr/include/gazebo-9/gazebo/msgs/physics.pb.h
  /usr/include/gazebo-9/gazebo/msgs/pid.pb.h
  /usr/include/gazebo-9/gazebo/msgs/planegeom.pb.h
